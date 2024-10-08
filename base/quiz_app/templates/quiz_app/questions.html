@@ -1,0 +1,17 @@
+{% extends 'quiz_app/index.html' %}
+
+{% block content %}
+
+<form>
+
+    {% for question in questions %}
+
+    <fieldset>
+        <h5>{{question}}</h5>
+    </fieldset>
+
+    {% endfor %}
+
+</form>
+
+{% endblock %}

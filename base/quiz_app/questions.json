@@ -1,0 +1,208 @@
+{
+    "questions": [
+        {
+            "question": "What is a virtual machine (VM)?",
+            "options": ["A type of physical machine", "A software emulation of a physical computer", "A tool for managing hardware", "A cloud storage service"],
+            "correct_option_id": 1,
+            "explanation": "A virtual machine is a software emulation of a physical computer."
+        },
+        {
+            "question": "What does a hypervisor do in virtualization?",
+            "options": ["It allows virtual machines to run on a physical host by managing their resources", "It provides internet access to the virtual machines", "It is responsible for data storage", "It is used for installing operating systems"],
+            "correct_option_id": 0,
+            "explanation": "A hypervisor allows virtual machines to run on a physical host by managing their resources."
+        },
+        {
+            "question": "What is Docker primarily used for?",
+            "options": ["Managing physical servers", "Containerizing applications to ensure portability", "Providing cloud-based services", "Monitoring network traffic"],
+            "correct_option_id": 1,
+            "explanation": "Docker is used for containerizing applications to ensure portability across different environments."
+        },
+        {
+            "question": "What is Docker primarily used for?",
+            "options": ["Managing physical servers", "Containerizing applications to ensure portability", "Providing cloud-based services", "Monitoring network traffic"],
+            "correct_option_id": 1,
+            "explanation": "Docker is used for containerizing applications to ensure portability across different environments."
+        },
+        {
+            "question": "Which of the following is an advantage of using containers?",
+            "options": ["Containers can run multiple operating systems at the same time", "Containers are portable and can run across different environments consistently", "Containers require more resources than virtual machines", "Containers do not need any dependencies to run"],
+            "correct_option_id": 1,
+            "explanation": "Containers are portable and can run consistently across different environments due to their lightweight nature."
+        },
+        {
+            "question": "Which command is used to start a Docker container?",
+            "options": ["docker execute", "docker start", "docker init", "docker run"],
+            "correct_option_id": 3,
+            "explanation": "The `docker run` command is used to start a new Docker container."
+        },
+        {
+            "question": "Which type of hypervisor runs directly on physical hardware?",
+            "options": ["Type 1 hypervisor", "Type 2 hypervisor", "Hosted hypervisor", "Container hypervisor"],
+            "correct_option_id": 0,
+            "explanation": "A Type 1 hypervisor runs directly on physical hardware, providing the foundation for running virtual machines."
+        },
+        {
+            "question": "What is the main difference between a virtual machine and a Docker container?",
+            "options": ["Containers run on virtual machines", "Containers share the host OS, while virtual machines have their own OS", "Virtual machines are faster than containers", "Virtual machines are smaller than containers"],
+            "correct_option_id": 1,
+            "explanation": "Containers share the host operating system, while virtual machines have their own operating system, making them different in how they manage resources."
+        },
+        {
+            "question": "How does a virtual machine ensure isolation from other virtual machines on the same host?",
+            "options": ["Each VM has its own dedicated hardware", "The hypervisor manages resource isolation and security between VMs", "VMs share resources equally", "VMs do not require isolation"],
+            "correct_option_id": 1,
+            "explanation": "The hypervisor manages resource isolation and security between virtual machines to ensure they operate independently."
+        },
+        {
+            "question": "What is a Docker image?",
+            "options": ["A running instance of a container", "A snapshot of a virtual machine", "A blueprint used to create Docker containers", "A log file for tracking container performance"],
+            "correct_option_id": 2,
+            "explanation": "A Docker image is a blueprint used to create Docker containers, containing the application and its dependencies."
+        },
+        {
+            "question": "Which of the following is a key feature of containers compared to virtual machines?",
+            "options": ["Containers use more system resources than virtual machines", "Containers provide lightweight, faster startup times compared to virtual machines", "Containers need more hardware resources than virtual machines", "Containers cannot run in the cloud"],
+            "correct_option_id": 1,
+            "explanation": "Containers provide lightweight, faster startup times compared to virtual machines, due to their efficient use of system resources."
+        },
+        {
+            "question": "What does the `docker images` command do?",
+            "options": ["Lists all Docker images on the host", "Starts a Docker container", "Shows running containers", "Builds a new Docker image"],
+            "correct_option_id": 0,
+            "explanation": "The `docker images` command lists all Docker images available on the host."
+        },
+        {
+            "question": "How do you find the size of a Docker image?",
+            "options": ["Use the `docker images` command", "Use the `docker inspect` command", "Use the `docker stats` command", "Use the `docker history` command"],
+            "correct_option_id": 0,
+            "explanation": "The `docker images` command shows the size of Docker images in its output."
+        },
+        {
+            "question": "How do you remove a Docker image?",
+            "options": ["Use the `docker delete` command", "Use the `docker rmi` command", "Use the `docker remove` command", "Use the `docker rm` command"],
+            "correct_option_id": 1,
+            "explanation": "The `docker rmi` command is used to remove Docker images."
+        },
+        {
+            "question": "What is the purpose of the copy-on-write (CoW) mechanism in Docker?",
+            "options": ["To optimize storage by sharing layers between images", "To copy files to a container's file system", "To create multiple instances of containers", "To manage container networking"],
+            "correct_option_id": 0,
+            "explanation": "The copy-on-write mechanism optimizes storage by allowing containers to share layers between images, reducing redundancy."
+        },
+        {
+            "question": "What command do you use to remove all stopped containers?",
+            "options": ["Use the `docker rm -f` command", "Use the `docker prune -a` command", "Use the `docker container prune` command", "Use the `docker cleanup` command"],
+            "correct_option_id": 2,
+            "explanation": "The `docker container prune` command removes all stopped containers."
+        },
+        {
+            "question": "How do you view the logs of a Docker container?",
+            "options": ["Use the `docker logs` command", "Use the `docker output` command", "Use the `docker status` command", "Use the `docker info` command"],
+            "correct_option_id": 0,
+            "explanation": "The `docker logs` command displays the logs of a Docker container."
+        },
+        {
+            "question": "What is the purpose of the `docker commit` command?",
+            "options": ["To create a new Docker image from a container’s changes", "To start a new container", "To stop a running container", "To remove an existing image"],
+            "correct_option_id": 0,
+            "explanation": "The `docker commit` command creates a new Docker image from the changes made in a container."
+        },
+        {
+            "question": "How can you list all Docker containers, including stopped ones?",
+            "options": ["Use the `docker ps -a` command", "Use the `docker list` command", "Use the `docker containers` command", "Use the `docker show` command"],
+            "correct_option_id": 0,
+            "explanation": "The `docker ps -a` command lists all Docker containers, including those that are stopped."
+        },
+        {
+            "question": "Which command shows the resource usage statistics of running Docker containers?",
+            "options": ["Use the `docker stats` command", "Use the `docker info` command", "Use the `docker monitor` command", "Use the `docker top` command"],
+            "correct_option_id": 0,
+            "explanation": "The `docker stats` command displays real-time resource usage statistics for running Docker containers."
+        },
+        {
+            "question": "How do you remove all unused Docker images?",
+            "options": ["Use the `docker image prune` command", "Use the `docker rmi -a` command", "Use the `docker cleanup` command", "Use the `docker image delete` command"],
+            "correct_option_id": 0,
+            "explanation": "The `docker image prune` command removes all unused Docker images from the system."
+        },
+        {
+            "question": "What is the function of the `docker volume` command?",
+            "options": ["To manage Docker volumes used for persistent storage", "To build Docker images", "To list running containers", "To start new containers"],
+            "correct_option_id": 0,
+            "explanation": "The `docker volume` command is used to manage Docker volumes, which are used for persistent storage."
+        },
+        {
+            "question": "Which command is used to view the logs of a running container?",
+            "options": ["docker log <container-id>", "docker logs <container-id>", "docker inspect <container-id>", "docker view-logs <container-id>"],
+            "correct_option_id": 1,
+            "explanation": "The correct command to view logs of a running container is `docker logs <container-id>`."
+        },
+        {
+            "question": "How can you view real-time logs from a running container (tail logs)?",
+            "options": ["docker logs -r <container-id>", "docker logs --continuous <container-id>", "docker logs -f <container-id>", "docker logs --stream <container-id>"],
+            "correct_option_id": 2,
+            "explanation": "The `-f` option in the `docker logs` command is used to follow or tail real-time logs from a running container."
+        },
+        {
+            "question": "What does the `--tail` option do in the `docker logs` command?",
+            "options": ["It shows only the last N lines of the logs.", "It deletes logs older than N days.", "It tails the log output to a file.", "It filters logs by container name."],
+            "correct_option_id": 0,
+            "explanation": "The `--tail` option in the `docker logs` command shows the last N lines of the container's logs."
+        },
+        {
+            "question": "Which command will display the logs of a container with timestamps?",
+            "options": ["docker logs --time <container-id>", "docker logs --timestamp <container-id>", "docker logs --show-time <container-id>", "docker logs --timestamps <container-id>"],
+            "correct_option_id": 3,
+            "explanation": "The `--timestamps` option in `docker logs` displays logs with the corresponding timestamps."
+        },
+        {
+            "question": "If a container has been stopped, how can you still view its logs?",
+            "options": ["It’s not possible to view logs of stopped containers.", "Use docker logs <container-id> as usual.", "Use docker logs --stopped <container-id>.", "Use docker logs --replay <container-id>."],
+            "correct_option_id": 1,
+            "explanation": "You can still view logs of stopped containers using `docker logs <container-id>`."
+        },
+        {
+            "question": "What will the following command display: `docker logs -n 50 <container-id>`?",
+            "options": ["The most recent 50 log lines from the container.", "The logs of the last 50 seconds of container activity.", "The top 50 processes running in the container.", "The logs from the first 50 seconds of container creation."],
+            "correct_option_id": 0,
+            "explanation": "`docker logs -n 50 <container-id>` displays the last 50 lines of the container's logs."
+        },
+        {
+            "question": "How can you retrieve logs for a specific time range from a container?",
+            "options": ["docker logs --since <time>", "docker logs --between <start-time> <end-time>", "docker logs --range <start-time> <end-time>", "docker logs --date <time-range>"],
+            "correct_option_id": 0,
+            "explanation": "You can use `docker logs --since <time>` to retrieve logs from a specific time onward."
+        },
+        {
+            "question": "How can you clear logs of a container?",
+            "options": ["docker logs --clear <container-id>", "docker container prune-logs", "You cannot directly clear logs, you have to delete and recreate the container.", "docker logs --flush <container-id>"],
+            "correct_option_id": 2,
+            "explanation": "You cannot directly clear logs in Docker. You must delete and recreate the container to clear its logs."
+        },
+        {
+            "question": "Which command removes all stopped containers?",
+            "options": ["docker rm -a", "docker prune containers", "docker container prune", "docker system rm"],
+            "correct_option_id": 2,
+            "explanation": "The `docker container prune` command is used to remove all stopped containers."
+        },
+        {
+            "question": "What does the `-f` option do in the `docker rm` command?",
+            "options": ["It removes the container by its name.", "It forces the removal of running containers.", "It finds and deletes unused containers.", "It filters the containers based on status."],
+            "correct_option_id": 1,
+            "explanation": "The `-f` option in `docker rm` forces the removal of a running container."
+        },
+        {
+            "question": "How can you remove multiple containers at once?",
+            "options": ["By listing their IDs or names separated by spaces in the docker rm command", "Using docker rm -a", "Running docker rm --all", "It’s not possible to delete multiple containers at once."],
+            "correct_option_id": 0,
+            "explanation": "You can remove multiple containers at once by listing their IDs or names separated by spaces in the `docker rm` command."
+        },
+        {
+            "question": "Which command will remove all containers, images, and networks not associated with a running container?",
+            "options": ["docker system prune", "docker container rm -a", "docker prune all", "docker remove all --force"],
+            "correct_option_id": 0,
+            "explanation": "The `docker system prune` command removes all unused containers, images, and networks."
+        }
+    ]
+}
